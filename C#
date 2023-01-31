@@ -1,0 +1,41 @@
+using System;
+
+namespace program 
+{
+    class program
+    {
+        static void Main(string[] args)
+        {
+            double score;
+            Console.WriteLine("Enter your score");
+            score = Convert.ToDouble(Console.ReadLine());
+
+            if (score >= 70)
+            {
+Console.WriteLine("YOU SCORED {0} YOUR GRADE IS A", score);
+            }
+            else if (score >= 69)
+            {
+                Console.WriteLine("YOU SCORED {0} YOUR GRADE IS B", score);
+            }
+            else if (score >= 59)
+            {
+                Console.WriteLine("YOU SCORED {0} YOUR GRADE IS C", score);
+            }
+            else if (score >= 49)
+            {
+                Console.WriteLine("YOU SCORED {0} YOUR GRADE IS D", score);
+            }
+            else if (score >= 49)
+            {
+                Console.WriteLine("YOU SCORED {0} YOUR GRADE IS E", score);
+            
+            }
+            else 
+            {
+                Console.WriteLine("YOU SCORED {0} YOUR GRADE IS F", score);
+            }
+
+        }
+    }
+}
